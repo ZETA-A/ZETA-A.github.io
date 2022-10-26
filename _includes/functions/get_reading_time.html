@@ -24,12 +24,12 @@
 {% assign hours = total_mins | divided_by: 60 %}
 {% assign mins = total_mins | modulo: 60 %}
 
-{% assign return = " 읽는시간" %}
+{% assign return = "About" %}
 
 {% if hours > 0 %}
-  {% assign unit = "시간" %}
+  {% assign unit = "hour" %}
   {% if hours > 1 %}
-    {% assign unit = unit %}
+    {% assign unit = unit | append: "s" %}
   {% endif %}
   {% assign return = return
     | append: " "
@@ -38,11 +38,12 @@
     | append: unit %}
 {% endif %}
 
-{% assign unit = "분" %}
+{% assign unit = "min" %}
 {% if mins > 1 %}
-  {% assign unit = unit %}
+  {% assign unit = unit | append: "s" %}
 {% endif %}
 {% assign return = return
   | append: " "
   | append: mins
+  | append: " "
   | append: unit %}

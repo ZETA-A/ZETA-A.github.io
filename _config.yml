@@ -40,21 +40,20 @@ author: ZETA-A
 #   "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
 #   "Copyright © 2017-2021 Foobar"
 #
-copyright: Copyright © 2022
+copyright: "Copyright © 2017-2021 {author}"
 
 description: >- # this means to ignore newlines until "baseurl:"
 
-    무언의 설명
-
+  일단 설명을 적어놨음
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. https://example.com
 favicon: "" # the favicon for your site
 
 # Yat date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 yat:
-    date_format: "%Y년 %m월 %d일"
+  date_format: "%Y년 %m월 %d일"
 
 # If you want more debug log, you can set true
 # debug: false
@@ -66,13 +65,13 @@ yat:
 # content_width: "920px"
 
 # Google analytics
-google_analytics: G-N3Q1ZMW8H8
+# google_analytics: [Tracking ID]
 
 # If you want to generate website sitemap, you can set true
 # sitemap: false
 
 # If you want to change site language, you can set lang option
-# lang: "ko" # default lang is en
+# lang: "en"  # default lang is en
 
 # Translate languges
 # langs refer to https://cloud.google.com/translate/docs/languages
@@ -139,25 +138,26 @@ google_analytics: G-N3Q1ZMW8H8
 # Code badge setting
 # You can enable or disable the code badge and so on
 # code_badge:
-#     enabled: "true"
-#     color: "#fff"
-#     background_color: "#ff4e00"
-#     text_transform: "uppercase" # ("uppercase", "lowercase", "capitalize")
+#   enabled: "true"
+#   color: "#fff"
+#   background_color: "#ff4e00"
+#   text_transform: "uppercase"  # ("uppercase", "lowercase", "capitalize")
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-header_pages:
-  - about.html
-  - archives.html
-  - categories.html
-  - tags.html
+# header_pages:
+#   - index.html
+#   - archives.html
+#   - categories.html
+#   - tags.html
+#   - about.md
 
 # Page default value
 defaults:
-    home:
-        heading: "정다운"
-        subheading: "정다운 우리 디스코드 친구"
-#    banner: "Your image url"
+  home:
+    heading: "정다운"
+    subheading: "정다운 우리 디스코드 챗봇"
+     #banner: "Your image url"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
@@ -170,8 +170,9 @@ defaults:
 #   image: null             # Image banner source
 #   opacity: 1.0            # Banner opacity (100% is 1.0)
 #   background: "rgba(0, 0, 0, 0.8)"  # Banner background (Could be a image)
+#   background: "rgba(0, 0, 0, 0.8)"  # Banner background (Could be a image)
 #   height: "640px"         # Banner default height
-#   min_height: null        # Banner minium height
+#   min_height: null        # Banner minimum height
 #   heading_style: null     # Custom heading style (e.g. "font-weight: bold; text-decoration: underline")
 #   subheading_style: null  # Custom subheading style (e.g. color: gold)
 
@@ -186,22 +187,22 @@ defaults:
 #   shortname: "Your Disqus username"
 
 # Gitment comments
-gitment:
-  username: "ZETA-A"
-  repo: "ZETA-A.github.io"
-  client_id: "24c7be380a99ce82fb31"
-  client_secret: "5e7ae6b527e84d59adaa816a1bd9d69a7b8b6bdf"
-  redirect_uri: "https://zeta-a.github.io"   # If you use a custom domain name
+# gitment:
+#   username: "Your GitHub username"
+#   repo: "The repo to store comments"
+#   client_id: "Your client ID"
+#   client_secret: "Your client secret"
+#   redirect_uri: "Your redirect url"   # If you use a custom domain name
 
 # Build settings
 # highlighter: none
 markdown: kramdown
 kmarkdown:
-    input: GFM
+  input: GFM
 
 plugins:
-    - jekyll-feed
-    - jekyll-seo-tag
-    - jekyll-sitemap
-    - jekyll-paginate
-    - jekyll-spaceship
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-spaceship
