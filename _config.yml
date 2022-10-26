@@ -187,11 +187,11 @@ defaults:
 
 # Gitment comments
 gitment:
-  username: "ZETA-A"
-  repo: "ZETA-A.github.io"
-  client_id: "24c7be380a99ce82fb31"
-  client_secret: "5e7ae6b527e84d59adaa816a1bd9d69a7b8b6bdf"
-  redirect_uri: "https://zeta-a.github.io"   # If you use a custom domain name
+  username: ZETA-A
+  repo: ZETA-A.github.io
+  client_id: 24c7be380a99ce82fb31
+  client_secret: 5e7ae6b527e84d59adaa816a1bd9d69a7b8b6bdf
+  redirect_uri: https://zeta-a.github.io   # If you use a custom domain name
 
 # Build settings
 # highlighter: none
