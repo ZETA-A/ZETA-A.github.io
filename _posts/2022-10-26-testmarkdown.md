@@ -2,7 +2,7 @@
 layout: post
 title: 테스트 마크다운
 subtitle: 이것은 테스트용 마크다운입니다
-categories: 첫글
+categories: firstpost
 tags: [첫 글, 이렇게 하는건가?]
 ---
 
