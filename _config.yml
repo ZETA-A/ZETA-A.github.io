@@ -53,7 +53,7 @@ google_analytics: G-N3Q1ZMW8H8
 # sitemap: false
 
 # If you want to change site language, you can set lang option
-lang: "ko" # default lang is en
+# lang: "ko" # default lang is en
 
 # Translate languges
 # langs refer to https://cloud.google.com/translate/docs/languages
