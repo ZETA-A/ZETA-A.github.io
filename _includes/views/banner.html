@@ -115,12 +115,14 @@
         {%- else -%}
 
           <div class="page-banner-default">
-            <h1 class="page-banner-heading">
+            <h1 style="font-weight: 700;" class="page-banner-heading">
               {{ heading | default: page.title | escape }}
             </h1>
-            <h2 class="page-banner-subheading">
-              {{ subheading | default: page.subtitle | escape }}
-            </h2>
+            <a href="https://discord.com/api/oauth2/authorize?client_id=1024473203155947570&permissions=2613488639040&scope=bot%20applications.commands">
+              <h2 class="page-banner-subheading">
+                {{ subheading | default: page.subtitle | escape }}  〉
+              </h2>
+            </a>
           </div>
         {%- endif -%}
       </div>
