@@ -28,6 +28,8 @@ title: ZETA-A Devlog
 email: open120477@gmail.com
 author: ZETA-A
 
+url: https://zeta-a.github.io
+
 # Copyright setting
 # You can use any html code, currently below placeholders are available:
 # * current year: {currentYear}
@@ -157,7 +159,7 @@ defaults:
     home:
         heading: "정다운"
         subheading: "정다운 우리 디스코드 친구"
-        banner: "Your image url"
+#        banner: "Your image url"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
@@ -191,7 +193,7 @@ gitment:
   repo: ZETA-A.github.io
   client_id: 24c7be380a99ce82fb31
   client_secret: 5e7ae6b527e84d59adaa816a1bd9d69a7b8b6bdf
-#  redirect_uri: https://zeta-a.github.io   # If you use a custom domain name
+  redirect_uri: https://zeta-a.github.io   # If you use a custom domain name
 
 # Build settings
 # highlighter: none
