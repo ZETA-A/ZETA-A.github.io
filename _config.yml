@@ -202,8 +202,8 @@ kmarkdown:
     input: GFM
 
 plugins:
-    - jekyll-feed
     - jekyll-seo-tag
-    - jekyll-sitemap
     - jekyll-paginate
-    - jekyll-spaceship
+    - jekyll-spaceship'
+    - jekyll-sitemap
+    - jekyll-feed
